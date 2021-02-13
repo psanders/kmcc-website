@@ -1,2 +1,1 @@
-# km
-Kaffeine Minds Coffee Company
+# Kaffeine Minds Coffee Company
