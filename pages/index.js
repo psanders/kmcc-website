@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           <div className={styles.whyContent}>
             <p>We are a veteran-owned and operated company, importing high-quality coffee beans, especially blending and roasting them, and shipping them directly to our consumers.</p>
-            <p>We recognize that the coffee customer journey is more than just providing a fantastic cup of coffee.</p>
+            <p>We recognized that the coffee customer journey is more than just providing a fantastic cup of coffee. That is why we strive for a coffee that tastes better, keeps you focused, and always provides the kind of boost that helps you get the most out of every moment.</p>
             <p>Our medium and dark roasts are packed with energy. Ideal for professionals who want to improve focus and maximize performance, especially those entrepreneurs and self-starters focused on software or development productivity.</p>
             <p className="bold">We exist to help you become the best version of yourself one cup of coffee at the time.</p>
           </div>
