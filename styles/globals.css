@@ -1,0 +1,111 @@
+:root {
+  --red: #FF0000;
+  --gold: #9D7B46;
+  --black: #0B161E;
+  --dark-gray: #6D7378;
+  --warm-gray: #E5E4E0;
+  --white: #FFFFFF;
+  --fontFamily: 'Source Sans Pro', sans-serif;
+  --fontHeadline: 'Oswald', 'Source Sans Pro', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  color: var(--black);
+  font-family: var(--fontFamily);
+  font-size: 16px;
+}
+
+h1 {
+  font-family: var(--fontHeadline);
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: var(--fontHeadline);
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: -0.63px;
+  line-height: 30px;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1040px) {
+  h2 {
+    font-size: 45px;
+    line-height: 55px;
+    text-align: left;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+@media (min-width: 1040px) {
+  h3 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 1rem;
+  }
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1040px) {
+
+}
+
+input {
+  appearance: none;
+  border: 0;
+}
+
+input:focus {
+  border: 2px solid var(--gold);
+  border-radius: 0;
+  outline: none;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  background-color: var(--gold);
+  color: var(--white);
+  font-family: var(--fontHeadline);
+  font-size: 14px;
+  padding: 0 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.gold {
+  color: var(--gold);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+
+
+
+

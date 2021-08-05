@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  margin: 0.5rem 0 2rem;
+  max-width: 310px;
+  width: 100%;
+}
+
+.form input,
+.form button {
+  height: 38px;
+}
+
+.form input {
+  width: 100%;
+}
+
+.form button {
+  background-color: var(--gold);
+  border: 0;
+  color: var(--white);
+  width: 79px;
+}

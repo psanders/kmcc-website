@@ -1,0 +1,52 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  margin: 0 auto;
+  max-width: 1580px;
+  width: 100%;
+}
+
+.logo {
+  height: auto;
+  max-width: 120px;
+  width: 100%;
+}
+
+@media (min-width: 1040px) {
+  .container {
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  .logo {
+    max-width: 237px;
+  }
+}
+
+.nav {
+  display: none;
+}
+
+@media (min-width: 1040px) {
+  .nav {
+    display: flex;
+  }
+}
+
+.nav a {
+  color: var(--warm-gray);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
