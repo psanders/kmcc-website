@@ -16,11 +16,11 @@
   }
 }
 
-@media (min-width: 1080px) {
+/*@media (min-width: 1080px) {
   .leadspace {
     background-image: none;
   }
-}
+}*/
 
 .video {
   display: none;
@@ -364,6 +364,7 @@
     max-width: 1080px;
     position: relative;
     width: 100%;
+    margin-bottom: 65px;
   }
 
   .whyImage {
